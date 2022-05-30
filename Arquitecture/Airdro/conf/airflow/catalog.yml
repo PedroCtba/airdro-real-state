@@ -1,0 +1,7 @@
+rawQuintoAndar:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/QuintoAndar/rawQuintoAndar.csv
+
+cleannedQuintoAndar:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/QuintoAndar/cleanedQuintoAndar.csv
