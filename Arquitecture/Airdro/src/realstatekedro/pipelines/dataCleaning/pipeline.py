@@ -8,6 +8,6 @@ def create_pipeline(**kwargs) -> Pipeline:
             func=cleaningQuintoAndar,
             inputs=["rawQuintoAndar"],
             outputs="cleannedQuintoAndar",
-            name="cleanQuintoAndar"
+            name="cleanQuintoAndarNode"
         )
     ])

@@ -37,5 +37,5 @@ def cleaningQuintoAndar(df: pd.DataFrame) -> pd.DataFrame:
     df = df.loc[df['Bairro'] != 'Desconhecido']
     df = df.loc[df['Cidade'] != 'Desconhecido']
     df = df.drop('C4', axis=1)
-
+    
     return df

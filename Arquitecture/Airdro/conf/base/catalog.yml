@@ -1,7 +1,9 @@
 rawQuintoAndar:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/QuintoAndar/rawQuintoAndar.csv
+  filepath: s3://realstatebucket/raw/quintoAndar/rawQuintoAndar.csv
+  credentials: minio_s3
 
 cleannedQuintoAndar:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/QuintoAndar/cleanedQuintoAndar.csv
+  filepath: s3://realstatebucket/ssot/quintoAndar/cleanedQuintoAndar.csv
+  credentials: minio_s3
